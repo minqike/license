@@ -25,7 +25,7 @@ public class Constant {
             String osName = System.getProperty("os.name").toLowerCase();
             log.info("操作系统: {}", osName);
             if (osName.contains("win")) {
-                PATH = "E:\\idea_data\\license\\src\\main\\resources\\cert";
+                PATH = "J:\\git\\01.git_minqike\\license\\src\\main\\resources\\cert";
             } else if (osName.contains("mac")) {
                 PATH = "/opt/data/idea_data/license/src/main/resources/cert";
             } else {
@@ -37,7 +37,7 @@ public class Constant {
     /**
      * 证书持有者
      */
-    public static final String LICENSEE_NAME = "LemonZuo";
+    public static final String LICENSEE_NAME = "minqike";
     /**
      * 所有 products的code <a href="https://data.services.jetbrains.com/products?fields=code,name,description"></a>
      * 和所有付费插件的code
